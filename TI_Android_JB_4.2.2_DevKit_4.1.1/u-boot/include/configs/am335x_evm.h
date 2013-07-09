@@ -464,10 +464,10 @@
 #define NAND_ENV_OFFSET                0x260000 /* environment starts here */
 
 /* ethernet gadget conflicts with fastboot, so disabled */
-/*
+/* */
 #define CONFIG_USB_ETHER
 #define CONFIG_USB_ETH_RNDIS
-#define CONFIG_USBNET_HOST_ADDR	"de:ad:be:af:00:00"*/
+#define CONFIG_USBNET_HOST_ADDR	"de:ad:be:af:00:00"
 #endif /* CONFIG_MUSB_GADGET */
 
 /*
